@@ -1,10 +1,13 @@
+** Test automation
 
-** Observations
+I have used Python and pytest. 
 
-IBM we own 10% too little.
-ORCL we own 10% too much.
-MSFT, AAPL and HD are fine as we own 20% which is the target.
+** Installation
 
-** What do you have to do to get to zero target variance?
+Use pyenv
 
-we need to adjust IBM and ORCL.
+python3 -m venv .venv && \
+source .venv/bin/activate
+
+pip3 install -r requirements.txt
+
