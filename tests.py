@@ -39,7 +39,7 @@ def test_20_percent_no_trade():
     assert result == 0
 
 def test_fractional_shares_round_up():
-    # $10,000 / $220 = 45.4545 but we want to verify rounding up works correctly.
+    # $10,000 / $220 = 45.4545  verify rounding up works correctly.
     result = shares_to_trade(target_percentage=20, current_percentage=30, share_price=220)
     assert result == 46
 
